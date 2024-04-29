@@ -1,0 +1,13 @@
+https://github.com/netplex/json-smart-v2/
+
+Run test with:
+./gdart-eval.sh -d net.minidev.json.App EvalProjects/json-smart-v2/target/json-smart-2.5.1.jar
+
+Used for early testing.
+
+Reproduced https://github.com/netplex/json-smart-v2/issues/60
+Found unhandeled exception in same function after fix. String of size 0 causes crash.
+
+DIVERGED when calling "Double.parseDouble()".
+
+gdart crashes sometimes during execution. May be linked to DIVERGED paths.
