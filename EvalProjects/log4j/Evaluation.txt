@@ -1,4 +1,6 @@
 https://github.com/apache/logging-log4j2
 
 Run test with:
-./gdart-eval.sh -d org.apache.logging.log4j.core.App EvalProjects/log4j/log4j-core/target/log4j-core-2.23.1-jar-with-dependencies.jar
+./gdart-eval.sh -d org.apache.logging.log4j.core.App EvalProjects/log4j/log4j-core/target/log4j-core-2.23.1.jar
+
+Executor crash for getLogger().
